@@ -1,0 +1,9 @@
+#########################################################################
+### Nombre del shell				:	.mailset
+###	Descripcion del proceso			:	archivo de variables mail
+### Analista creador				:	Reynaldo
+###	Fecha creacion					:	23/01/2017
+#########################################################################
+
+LISTA_CORREO=rsconchaq@gmail.com;export LISTA_CORREO
+COPIA_CORREO=rconchaq@everis.com;export COPIA_CORREO

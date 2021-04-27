@@ -1,0 +1,11 @@
+#########################################################################
+### Nombre del shell				:	.passet
+###	Descripcion del proceso			:	archivo de proteccion de datos
+### Analista creador				:	reynaldo
+###	Fecha creacion					:	23/01/2017
+#########################################################################
+
+BDMSSAP=MSSAP;export BDMSSAP
+USRMSSAP=SINERGIA_MSSAP;export USRMSSAP
+PASSMSSAP=SINERGIA_MSSAP;export PASSMSSAP
+OWNMSSAP=SINERGIA_MSSAP;export OWNMSSAP

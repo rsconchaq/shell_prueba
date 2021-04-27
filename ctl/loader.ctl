@@ -1,0 +1,15 @@
+load data 
+truncate
+into table SINERGIA_MSSAP.SSAPT_SERIE_LOADER
+fields terminated by '|'
+OPTIONALLY ENCLOSED BY '"' AND '"'
+trailing nullcols
+           ( MATEC_CODMATERIAL,
+		     OFICC_CODCENTRO,
+             OFICC_CODALMACEN,
+		     SERIC_CODSERIE,
+			 SERIV_ESTADOSAP,
+             SERIC_STOCKESPECIAL,
+             INTEV_CODINTERLOCUTOR "DECODE(:INTEV_CODINTERLOCUTOR,NULL,'9999999999',:INTEV_CODINTERLOCUTOR)",
+			 OFICV_CODOFICINA
+           )

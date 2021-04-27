@@ -1,0 +1,14 @@
+#########################################################################
+### Nombre del shell				:	.varset
+###	Descripcion del proceso			:	archivo de variables globales
+### Analista creador				:	reynaldo
+###	Fecha creacion					:	31/01/2017
+#########################################################################
+
+DIR_HOME=/home/T11645/sqlloader;export DIR_HOME
+DIR_INPUT=$DIR_HOME/input; export DIR_INPUT
+DIR_OUTPUT=$DIR_HOME/output; export DIR_OUTPUT
+DIR_LOG=$DIR_HOME/log; export DIR_LOG
+DIR_SHELL=$DIR_HOME/shell; export DIR_SHELL
+DIR_CTL=$DIR_HOME/ctl; export DIR_CTL
+DIR_BAD=$DIR_HOME/bad; export DIR_BAD
